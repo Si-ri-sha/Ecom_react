@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# E-Commerce React Native App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Project Overview
 
-## Get started
+This is a React Native e-commerce application built using **Expo**. The project includes navigation setup, basic screen layouts, and initial UI components. The goal is to create a functional shopping app as part of an internship application.
 
-1. Install dependencies
+## 🚀 Features Implemented So Far
 
-   ```bash
-   npm install
-   ```
+- **Project Initialization**: Set up the project using `npx create-expo-app`.
+- **Navigation**: Configured navigation using `react-navigation`.
+- **Screens**:
+  - `HomeScreen` – Displays a welcome message.
+  - `ProductScreen` – Placeholder for product listings.
+- **Basic UI Setup**: Implemented a simple layout with a title and navigation.
+- **Expo Debugging**: Ran and tested the app using Expo Go.
 
-2. Start the app
+## 🛠 Tech Stack
 
-   ```bash
-    npx expo start
-   ```
+- **React Native** (Expo)
+- **React Navigation**
+- **JavaScript**
+- **Expo CLI**
 
-In the output, you'll find options to open the app in a
+## 📂 Project Structure
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+/ecom-app
+│── /assets          # Static images and icons
+│── /screens         # App screens (Home, Product, etc.)
+│── /navigation      # Navigation setup
+│── App.js           # Entry point of the app
+│── package.json     # Dependencies and scripts
+│── README.md        # Project documentation
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 💻 Running the App
 
-## Learn more
+Scan the QR code using the **Expo Go** app on your mobile device.
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📌 Next Steps
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Implement product listing and details.
+- Add authentication (Sign up, Login).
+- Connect to a backend (Firebase or Node.js).
+- Implement a shopping cart and checkout.
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+⚡ **Status:** Work in Progress 🚧
